@@ -10,8 +10,16 @@ project(universitydb)
 
 # set executables
 set(THIS_PROJECT_SRC_DIRECTORIES
+    source/DataBase.cpp
+    source/Debug.cpp
+    source/Gui.cpp
+    source/Program.cpp
+    source/StudentModel.cpp
+    source/StudentBuilder.cpp
 )
 set(THIS_PROJECT_TESTS_DIRECTORIES
+    source/StudentBuilder.ut.cpp
+    source/StudentModel.ut.cpp
 )
 
 # set flags
